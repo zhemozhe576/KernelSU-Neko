@@ -2,7 +2,7 @@
 
 # KernelSU
 
-<img src="http://wpan.cdndns.site/down/Neko" style="width: 96px;" alt="logo">
+<img src="https://cccimg.com/view.php/608dd080b1cb333b149de1ae1a0bc678.png" style="width: 96px;" alt="logo">
 
 A kernel-based root solution for Android devices.
 
