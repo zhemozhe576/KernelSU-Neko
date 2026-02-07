@@ -6,52 +6,14 @@
 
 A kernel-based root solution for Android devices.
 
-[![Latest release](https://img.shields.io/github/v/release/tiann/KernelSU?label=Release&logo=github)](https://github.com/tiann/KernelSU/releases/latest)
-[![Weblate](https://img.shields.io/badge/Localization-Weblate-teal?logo=weblate)](https://hosted.weblate.org/engage/kernelsu)
-[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/KernelSU)
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-orange.svg?logo=gnu)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![GitHub License](https://img.shields.io/github/license/tiann/KernelSU?logo=gnu)](/LICENSE)
-
-## Features
-
-1. Kernel-based `su` and root access management.
-2. Module system based on [metamodules](https://kernelsu.org/guide/metamodule.html): Pluggable infrastructure for systemless modifications.
-3. [App Profile](https://kernelsu.org/guide/app-profile.html): Lock up the root power in a cage.
-
-## Compatibility state
-
-KernelSU officially supports Android GKI 2.0 devices (kernel 5.10+). Older kernels (4.14+) are also supported, but the kernel will need to be built manually.
-
-With this, WSA, ChromeOS, and container-based Android are all supported.
-
-Currently, only the `arm64-v8a` and `x86_64` architectures are supported.
-
-## Usage
-
-- [Installation](https://kernelsu.org/guide/installation.html)
-- [How to build](https://kernelsu.org/guide/how-to-build.html)
-- [Official website](https://kernelsu.org/)
-
-## Translation
-
-To help translate KernelSU or improve existing translations, please use [Weblate](https://hosted.weblate.org/engage/kernelsu/). PR of Manager's translation is no longer accepted, because it will conflict with Weblate.
-
-## Discussion
-
-- Telegram: [@KernelSU](https://t.me/KernelSU)
-
-## Security
-
-For information on reporting security vulnerabilities in KernelSU, see [SECURITY.md](/SECURITY.md).
-
-## License
-
-- Files under the `kernel` directory are [GPL-2.0-only](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
-- All other parts except the `kernel` directory are [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html).
-
-## Credits
-
-- [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): The KernelSU idea.
-- [Magisk](https://github.com/topjohnwu/Magisk): The powerful root tool.
-- [genuine](https://github.com/brevent/genuine/): APK v2 signature validation.
-- [Diamorphine](https://github.com/m0nad/Diamorphine): Some rootkit skills.
+KernelSU-Neko 🐱
+​KernelSU-Neko is a personalized fork of KernelSU. While retaining the powerful kernel-level root capabilities of the original, we focus on providing a more vibrant, aesthetic, and well-designed UI experience.
+​✨ Key Features
+​UI Refinement: Completely redesigned management interface with modern color palettes and smooth animations.
+​Themed Assets: Integrated Neko-themed elements for a unique visual identity.
+​Upstream Sync: Regularly synced with the official KernelSU repository to ensure security and stability.
+​Enhanced UX: Optimized interaction logic and reduced visual clutter for a more intuitive feel.
+​🛠️ Installation
+​Ensure your kernel has KernelSU support integrated.
+​Download the latest Neko Manager APK from the Releases page.
+​Install the APK to replace the stock manager and enjoy the new look.
